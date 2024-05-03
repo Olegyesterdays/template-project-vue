@@ -1,0 +1,44 @@
+:root {
+    --shadow-color: #00000019;
+    --red: #ED202E;
+
+    --my-main-background-color-light-theme: #FFFFFF;
+    --my-dop-background-color-light-theme: #E6F0FD;
+    --mu-text-color-light-theme: #000000;
+
+    --my-main-background-color-dark-theme: #2D2D2D;
+    --my-dop-background-color-dark-theme: #0C0C0C;
+    --mu-text-color-dark-theme: #ffffff;
+
+    --accent-color: #ED202E;
+    --secondary-color: #9DB0BB;
+    --black-color: #000000;
+    --additional-color: #0065E2;
+    --neutral-color: #E6F0FD;
+    --main-color: #FFFFFF;
+
+}
+
+* {
+    transition: background-color  0.3s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    /*&::-webkit-scrollbar {*/
+    /*    width: 8px;*/
+    /*}*/
+
+    /*&::-webkit-scrollbar-track {*/
+    /*    border-radius: 4px;*/
+    /*    background-color: transparent;*/
+    /*    border: 0;*/
+    /*}*/
+
+    /*&::-webkit-scrollbar-thumb {*/
+    /*    border-radius: 4px;*/
+    /*    background: var(--red);*/
+    /*}*/
+}

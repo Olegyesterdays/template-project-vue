@@ -1,0 +1,10 @@
+{
+  "header-app": {},
+  "account-page": {},
+  "main-page": {},
+  "not-found-page": {
+    "header": "Страница не найдена",
+    "description": "Извините, запрашиваемая страница не существует."
+  },
+  "footer-app": {}
+}

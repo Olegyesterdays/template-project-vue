@@ -1,0 +1,10 @@
+{
+  "header-app": {},
+  "account-page": {},
+  "main-page": {},
+  "not-found-page": {
+    "header": "The page was not found",
+    "description": "Sorry, the requested page does not exist."
+  },
+  "footer-app": {}
+}

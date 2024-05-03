@@ -1,0 +1,12 @@
+:root {
+    --main-color: #ffffff;
+    --additional-color: #1e1e1e;
+    --accent-color: #da4b1a;
+
+    --text-color: #1e1e1e;
+    --additional-text-color: #ffffff;
+    --accent-text-color: #da4b1a;
+    --button-text-color: #ffffff;
+
+    --shadow-color: #1e1e1e19;
+}
