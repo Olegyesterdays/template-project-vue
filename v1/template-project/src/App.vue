@@ -2,7 +2,9 @@
   <div class="container">
     <HeaderApp />
 
-    <router-view class="pages"/>
+    <div class="pages">
+      <router-view />
+    </div>
 
     <TheButtonForQuickNavigationOnThePage />
 
@@ -26,10 +28,13 @@ onBeforeMount(() => {
 
 <style lang="scss" scoped>
 .container {
-  width: 100%;
-  height: 100vh;
+  //width: 100%;
+  //height: 100%;
 
   .pages {
+    width: 100%;
+    margin-top: 64px;
+    background: var(--main-color);
   }
 }
 </style>

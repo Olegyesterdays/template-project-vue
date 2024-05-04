@@ -9,6 +9,8 @@ import MainPage from "@/views/main-page.vue";
 import AccountPage from "@/views/account-page.vue";
 import NotFoundPage from "@/views/not-found-page.vue";
 import AuthPage from "@/views/auth-page.vue";
+import BooksPage from "@/views/books-page.vue";
+import BookPage from "@/views/book-page.vue";
 
 const store = useStore()
 const routes = [
@@ -24,6 +26,14 @@ const routes = [
         path: '/account',
         component: AccountPage,
         meta: { requiresAccount: true }
+    },
+    {
+        path: '/booksPage',
+        component: BooksPage
+    },
+    {
+        path: '/bookPage',
+        component: BookPage
     },
     {
         path: '/:catchAll(.*)',
